@@ -1,4 +1,4 @@
-const Measure = require('../models/measure');
+import Measure from '../models/measure';
 
 exports.listMeasures = async (req, res) => {
   try {

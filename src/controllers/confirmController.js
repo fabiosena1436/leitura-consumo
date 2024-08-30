@@ -1,5 +1,5 @@
-const Measure = require('../models/measure');
 
+import Measure from '../models/measure';
 exports.confirmMeasure = async (req, res) => {
   try {
     const { measure_uuid, confirmed_value } = req.body;
